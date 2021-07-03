@@ -1,0 +1,23 @@
+
+ALGORITHMIQUE ET PROGRAMMATION
+
+Préambule
+Lisez la ressource Préambule.
+
+Introduction
+Lisez la ressource Introduction.
+
+Phase 1 - Les variables
+Lisez cette ressource, puis réalisez les exercices.
+
+Phase 2 - Lecture - Ecriture
+Lisez cette cette ressource, puis réalisez les exercices.
+
+Phase 3 - Les Tests
+Lisez cette cette ressource, puis réalisez les exercices.
+
+Phase 4 - Encore un peu de logique
+Lisez cette cette ressource, puis réalisez les exercices.
+
+Phase 5 - Les boucles
+Lisez cette ressource, puis réalisez 5.1 à 5.9 les exercices.

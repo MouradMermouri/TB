@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="Fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact</title>
+</head>
+<body>
+    
+    <!-- L'entête de la page-->
+    <header>
+        
+        <div class="logo"><img src="img/jarditou_logo.jpg" alt="Logo" height ="100" width="300"></div>
+        <div class="titre"><p id="mon-titre">La qualité depuis 70 ans</p></div>
+        
+        
+    </header>
+ 
+
+    <!--Le menu naviguation-->
+    <nav>
+        <div class="mon-menu">
+            <ul>
+                <li><a href="Index.Html">Accueil</a></li>
+                <li><a href="Tableau.html">Tableau</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </div>   
+    </nav>
+
+    <!--Sectionnement image promotion-->
+    <section>
+        <div class="promotion">
+              <img src="img/promotion.jpg" alt="Promotion"> 
+        </div>
+ 
+     
+    </section>
+
+    <!--contenu article!-->
+    <article>
+ 
+
+     <!--Le section article-->
+        <div class="contenu-contact">
+        <h1>Accueil</h1>
+            <hr><!-- La ligne de sectionnement-->
+            <form action="destination.php" method="post">
+                <p>* ces zones sont obligatoire</p>
+                <fieldset>
+                    <legend>Vos coordonnées</legend>
+      
+                    <label for="name">Nom* :</label>
+                    <input type="text" id="prenom" name="user_name">
+                    <label for="prenom">Prénom* :</label>
+                    <input type="text" id="name" name="user_prenom">
+     
+                <br>
+       
+                    <label for="name">Sexe* :</label>
+                    <input type="radio" name="sexe" value="Male"> Masculin
+                    <input type="radio" name="sexe" value="Female"> Feminin                
+     
+                <br>
+    
+                    <label for="start">Date de naissance* :</label>
+                    <input type="date" id="start" name="trip-start" value="2011-07-22" min="1921-01-01" max="1921-12-31">               
+                    
+                    <br>
+                    <label for="cp">Code postale* :</label>
+                    <input type="text" id="cp" name="user_cp"> <br>
+     
+                    <label for="adress">Adresse :</label>
+                    <input type="text" id="adress" name="user_adress"> <br>
+          
+                    <label for="ville">Ville :</label>
+                    <input type="text" id="ville" name="user_ville"> <br>
+             
+                    <label for="mail">Email* :</label>
+                    <input type="text" id="mail" name="user_mail"> 
+                
+            </fieldset>
+    
+            <fieldset>
+                
+                <legend>Votre demande</legend>
+                <label for="demande">Sujet* :</label>
+                <select id="demande"> 
+                    <option value="Veuillez séléctionner un sujet" selected>Veuillez séléctionner un sujet</option>
+                    <option value="Mes commandes">Mes commandes</option>
+                    <option value="Questions sur un produit">Questions sur un produit</option>
+                    <option value="Réclamation">Réclamation</option>
+                    <option value="Autres">Autres</option>
+                </select><br>
+                
+               <label>Votre question* :</label> 
+               <textarea name="comentaires" rows="2" cols="20"></textarea>`
+            </fieldset>
+            <br>
+            <input type="checkbox" name="couleur3" value="Vert" > * J'accepte le traitement informatique de ce formulaire
+            <br><br>
+            <input type="submit" value="Envoyer">
+            <input type="reset" value="Annuler">
+        </form>
+         
+                
+        </div>
+
+        <div class="colonne-contact">
+            <p> [ colonne de droite ]</p>
+        </div>
+        
+    </article>
+ 
+
+    <!--Le section footer-->
+    <footer>        
+        <div class="pied">
+            <ul><!--Le menu naviguation footer-->
+                <li><a href="">Mentions légales</a></li>
+                <li><a href="">Horraires</a></li>
+                <li><a href="">Plan du site</a></li>
+
+            </ul>
+        </div> 
+    </footer>
+ 
+
+ 
+    
+</body>
+</html>

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">   
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+ 
+    <title>Tableau</title>
+</head>
+
+<body>
+
+
+    <div class="container-fluid"> <!--container principal bootstrap-->
+
+      <header>
+        <div class="row  align-items-end"><!--ligne pour le logo et le titre-->
+           <div class="col-12 d-none col-md-6 d-md-block  " ><!--ce qui s'affiche a resolution selon grille bootstrap -->
+            
+            <img src="img/jarditou_logo.jpg" alt="logo" width="50%" >
+ 
+           </div><!-- fin de l'affichage-->
+           <div class="col-12 d-none col-md-6 d-md-block  "><!--ce qui s'affiche a resolution -->
+              <div class=" text-center"><h2 class="font-weight-normal">Tout le jardin</h2></div>
+           </div><!-- fin de l'affichage-->    
+        </div><!--Fin de la ligne logo et titre-->
+     </header>  
+
+
+     <nav>
+        <div class="row my-2"><!--ligne pour la navbar-->
+            <div class="col-12 col"><!--Sur une clolonne de 12 sur la grille -->
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                        <a class="navbar-brand" href="#">Jarditou.com</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                    
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item ">
+                            <a class="nav-link" href="Index.html">Accueil <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item active" >
+                            <a class="nav-link" href="Tableau.html">Tableau</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Contact.html">Contact</a>
+                            </li>
+                            
+                        
+                        </ul>
+                        <form class="form-inline my-2 my-lg-0"><!-- formulaire pour la recherche de la navbar -->
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                        </form>
+                        </div>
+                    </nav>
+            </div><!--fin de la ligne Navbar -->
+        </div>
+    </nav>
+
+    <article>
+        <div class="row  align-items-end my-2">
+            <div class="col-12">
+
+                <div class="bg-primary ">
+                    <img src="img/promotion.jpg" alt="promotion" width="100%">
+                </div>
+            </div>   
+        </div>
+
+       
+                 
+            <table class="table ">
+                <thead>
+                    <h2>Tableau</h2>
+        
+                </thead>
+                <tbody>
+                    <tr>
+                        
+                       <th><h3>Photo</h3> </th>
+                       <th> <h3>Id</h3> </th>
+                       <th><h3>Categories</h3></th> 
+                       <th> <h3>Libellé</h3></th>
+                       <th><h3>Prix</h3> </th>
+                       <th><h3>Couleur</h3></th>
+                      
+                    </tr>
+                
+                        <tr class="bg-warning">
+                            <th> 
+                            <img src="img/7.jpg" alt="Image" height="100" width="100"> 
+                            <td>7</td>
+                            <td>Barbecues</h6></td>
+                            <td> Aramis</td>
+                            <td>110.00€</td>
+                            <td> brun</td>
+                         </tr>
+                        
+          
+                        <tr>
+
+                        <td><img src="img/8.jpg" alt="Image" height="100" width="100"> </td>                        
+                            <td>8</td>
+                            <td>Barbecues</td>
+                            <td> Athos</td>
+                            <td>249.00€</td>
+                            <td> Noir</td>
+                            
+                        </tr>
+                        <tr class="bg-warning">
+                            <th> 
+                            <img src="img/11.jpg" alt="Image" height="100" width="100"> 
+                            <td>7</td>
+                            <td>Barbecues</h6></td>
+                            <td> Caltronic</td>
+                            <td>135.90€</td>
+                            <td> Chrome</td>
+                    </tr>
+                     <tr>
+                     <td> 
+                        <img src="img/12.jpg" alt="Image" height="100" width="100">  </td>
+                     <td>12</td>
+                     <td>Barbecues</td>
+                     <td> Camping</td>
+                     <td>88.00€</td>
+                     <td> Noir</td>
+                    
+                 </tr>
+                 <tr class="bg-warning">
+                 <td>  <img src="img/13.jpg" alt="Image" height="100" width="100"></td> 
+                 <td>13</td>
+                 <td>Brouette</td>
+                 <td> Green</td>
+                 <td>49.00€</td>
+                 <td> Verte</td>
+                 </tr>
+         
+          
+                </tbody>
+             
+                </table>
+        
+         
+    </article>
+
+    <footer>
+       <div class="row my-2">
+           <div class="col-4 col-lg-12 ">
+            <footer class="navbar navbar-expand-lg navbar-dark bg-dark">
+               
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                  <div class="navbar-nav">
+                    <a class="nav-item nav-link " href="#">Mentions légales <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="#">Horraire</a>
+                    <a class="nav-item nav-link" href="#">Plan du site</a>
+                  </div>
+                </div>
+              </footer>
+           </div>
+       </div>
+    </footer>
+
+
+
+</div>
+
+
+
+
+
+    
+</body>
+
+</html>

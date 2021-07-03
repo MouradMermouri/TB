@@ -1,0 +1,130 @@
+*
+{
+    padding: 0px 0px;
+    margin: 0px;
+}
+ 
+
+ .titre
+ {
+    position: absolute;
+  
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    top: 0px;
+    left: 300px;
+    width: 810px;
+    height: 100px; 
+ }
+ #mon-titre
+ {     
+    position: absolute;
+    text-align: center;
+    top: 40px;
+    width: 810px;
+    font-weight: bold;
+
+ }
+ .mon-menu
+ {
+     background-color: black;
+     width: 1110px;  
+     height: 20px;   
+ }
+ ul li
+ {
+     font-family: Arial, Helvetica, sans-serif;
+     padding: 15px;
+     font-size: 18px;
+     display: inline;
+ }
+ .promotion
+ {
+     height: 214px;
+ }
+ .contenu
+ {
+ 
+    width: 810px;
+    height: 300px;
+    display: inline-block;
+ }
+ .colonne
+ {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    position: absolute;
+    top: 338px;
+    height: 300px;
+    left: 810px;
+     background-color: darkgray;
+     width: 300px;         
+
+ }
+ .tableau
+ {
+ 
+    width: 810px;
+    height: 600px;
+    display: inline-block;
+ }
+ 
+ .tab-colonne
+ {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    position: absolute;
+    top: 338px;
+    height: 600px;
+    left: 810px;
+     background-color: darkgray;
+     width: 300px;         
+
+ }
+ .contenu-contact
+ {
+ 
+    width: 750px;
+    height: 400px;
+    display: inline-block;
+ }
+ .colonne-contact
+ {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    position: absolute;
+    top: 338px;
+    height: 400px;
+    left: 810px;
+     background-color: darkgray;
+     width: 300px;         
+
+ }
+
+ .pied
+ {
+     background-color: black;
+     width: 1110px;
+     clear: both;
+ }
+ a:link
+ { 
+     color:white;
+ }
+ a:hover
+ {
+    color:white;
+ }
+ a:visited
+ {
+     color:white;
+ }
+
+ 
+ 

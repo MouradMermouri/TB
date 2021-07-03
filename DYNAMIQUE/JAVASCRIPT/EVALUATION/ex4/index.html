@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="FR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Exercice 4 : total d'une commande</title>
+</head>
+<body style="font-size: 18px;">
+    <h1 class=" display-4"><strong>Evaluation Javascript</strong></h1>
+    <h1 class=" display-4 " style="font-size: 28px;">Exercice 4 : total d'une commande</h1>
+
+    <div class="container-fluid "> 
+  
+        <div class="row">
+            <div class="col-6 border border-solid">
+                <h1 class=" display-4 " style="font-size: 18px;"><strong>Exercice 4 :</strong></h1>
+                <p style="text-align: justify; font-family: Arial, Helvetica, sans-serif; font-size: 14px;">
+                    A partir de la saisie du prix unitaire noté PU d'un produit et de la quantité commandée QTECOM, afficher le prix à payer PAP, en détaillant la remise REM et le port PORT, sachant que :
+                    <br> - TOT = ( PU * QTECOM )
+                    <br> - la remise est de 5% si TOT est compris entre 100 et 200 € et de 10% au-delà
+                    <br> - le port est gratuit si le prix des produits ( le total remisé ) est supérieur à 500 €. Dans le cas contraire, le port est de 2%
+                    <br> - la valeur minimale du port à payer est de 6 €
+                    <br>Testez tous les cas possibles afin de vous assurez que votre script fonctionne.
+                    <br>
+                    <br>Ci-dessous, un jeu de tests :
+                    <br>
+                    <br> - Saisir 600 € et quantité = 1 : remise 10% (-60 €) soit 540,00 et frais port = 0; à payer : 540 €
+                    <br> - Saisir 501 € et quantité = 1 : remise 10% (-50,1 €) soit 450,90 et frais port 2% (de 450,90 €) soit +9,01 € ; à payer : 450,90+9.01 = 459,91 €.
+                    <br> - Saisir 100 € et quantité = 2 : 200 € donc remise 5% soit 190 € et frais de port 2% soit 3,8 € mini 6 €; à payer : 190+6 = 196 €
+                    <br> - Saisir 3 € et quantité = 1 : remise 0, frais de port 2% soit 0.06 € donc le minimum de 6 € s'applique; à payer : 3+6 = 9 €
+                </p>             
+            </div>
+            <div class="col-6 border border-solid">
+                <h1 class=" display-4 " style="font-size: 18px;"><strong>Résultat :</strong></h1>
+                <div id="Affiche" ></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="script_ex4.js"></script>
+</body>
+</html>

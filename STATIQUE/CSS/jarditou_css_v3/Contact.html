@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact</title>
+</head>
+<body>
+    
+        <div class="conteneur-page">
+         
+            <header>
+                <div class="conteneur-logo">
+                        <div class="logo-site"><img src="img/jarditou_logo.jpg" alt="logo" width="100%" height="100%"></div>
+                        <div class="titre-site">Tout le jardin</div>
+                            
+                </div>      
+                    
+             </header>
+
+             <nav>
+                     <div class="menu-nav"> 
+                         <ul class="list-nav">
+                            <li class="element-nav"> <a href="Index.html">Accueil</a> </li>
+                            <li class="element-nav"><a href="Tableau.html">Tableau</a> </li>
+                            <li class="element-nav"><a href="Contact.html">Contact</a> </li>
+                         </ul>
+                     </div>
+                     <div class="promo-nav"> <img src="img/promotion.jpg" alt="promotion" width="100%" height="100%"></div>
+             </nav>
+
+             <article>
+                <div class="conteneur-article">
+                    <div class="article-site">
+                        <h1>Contact</h1>
+                       
+                        <hr>
+                        <br>
+                        <p>* ces zones sont obligatoire</p>
+                        <fieldset>
+                            <legend>Vos coordonnées</legend>
+              
+                            <label for="name">Nom* :</label>
+                            <input type="text" id="prenom" name="user_name">
+                            <label for="prenom">Prénom* :</label>
+                            <input type="text" id="name" name="user_prenom">
+             
+                        <br>
+               
+                            <label for="name">Sexe* :</label>
+                            <input type="radio" name="sexe" value="Male"> Masculin
+                            <input type="radio" name="sexe" value="Female"> Feminin                
+             
+                        <br>
+            
+                            <label for="start">Date de naissance* :</label>
+                            <input type="date" id="start" name="trip-start" value="2011-07-22" min="1921-01-01" max="1921-12-31">               
+                            
+                            <br>
+                            <label for="cp">Code postale* :</label>
+                            <input type="text" id="cp" name="user_cp"> <br>
+             
+                            <label for="adress">Adresse :</label>
+                            <input type="text" id="adress" name="user_adress"> <br>
+                  
+                            <label for="ville">Ville :</label>
+                            <input type="text" id="ville" name="user_ville"> <br>
+                     
+                            <label for="mail">Email* :</label>
+                            <input type="text" id="mail" name="user_mail"> 
+                        
+                    </fieldset>
+            
+                    <fieldset>
+                        
+                        <legend>Votre demande</legend>
+                        <label for="demande">Sujet* :</label>
+                        <select id="demande"> 
+                            <option value="Veuillez séléctionner un sujet" selected>Veuillez séléctionner un sujet</option>
+                            <option value="Mes commandes">Mes commandes</option>
+                            <option value="Questions sur un produit">Questions sur un produit</option>
+                            <option value="Réclamation">Réclamation</option>
+                            <option value="Autres">Autres</option>
+                        </select><br>
+                        
+                       <label>Votre question* :</label> 
+                       <textarea name="comentaires" rows="2" cols="20"></textarea>`
+                    </fieldset>
+                    <br>
+                    <input type="checkbox" name="couleur3" value="Vert" > * J'accepte le traitement informatique de ce formulaire
+                    <br><br>
+                    
+                    <input type="submit" value="Envoyer">
+                    <input type="reset" value="Annuler">
+                    
+                    </form>
+                    <br>
+                       
+                        <hr>
+                        <br>
+                    </div>
+                    <div class="conteneur-colonne">[ Colonne de droite ]</div>                        
+            </div>      
+
+             </article>
+
+
+             <footer>
+                <div class="pied-page">
+                    <ul class="list-footer">
+                        <li class="element-footer"> <a href="">Mentions légales</a> </li>
+                        <li class="element-footer"> <a href="">Horraires</a> </li>
+                        <li class="element-footer"> <a href="">Plan du site</a> </li>
+                    </ul>
+                </div>
+             </footer>
+        </div>
+
+
+</body>
+</html>

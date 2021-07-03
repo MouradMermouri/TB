@@ -1,0 +1,6 @@
+Moralité : les deux dernières instructions permettent-elles d’échanger les deux valeurs de B et A ?
+NON 
+
+Si l’on inverse les deux dernières instructions, cela change-t-il quelque chose ?
+NON
+

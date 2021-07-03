@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Evaluation Exercice 5</title>
+</head>
+<body  style="font-size: 18px;">
+     
+
+        <header>
+            <h1 class=" display-4"><strong>Evaluation Javascript</strong></h1>
+            <h1 class=" display-4"  style="font-size: 28px;"><strong>Exercice 5 : vérification d'un formulaire</strong></h1> 
+        </header>
+
+
+    <div class="container-fluid bg-light"> 
+        <div class="row">
+            <div class="col-6 border border-solid"> 
+                <h1 class=" display-4 " style="font-size: 18px;"><strong>Exercice 5</strong></h1>
+                <p class ="lead "style="text-align: justify;">
+                    Effectuez le contrôle de saisie de votre formulaire Jarditou en Javascript.
+                    Lorsqu'une erreur est détectée, l'utilisateur doit en être informé grâce à l'affichage d'un message sous le champ concerné.                    
+                    Le formulaire ne peut être envoyé que lorsque tout est bon.
+                </p>  
+
+            </div>
+
+            <div class="col-6 border border-solid">
+                <h1 class=" display-4 " style="font-size: 18px;"><strong>Exercice résultat 1</strong></h1>
+                <form action="http://bienvu.net/script.php" method="POST">   
+                    <p class="text-danger" >* Ces zones sont obligatoires</p>
+                    <fieldset>
+                        <legend class="text-dark">Coordonnées :</legend>
+                        <div id="verif_nom"></div>
+                        <div class="input-group mb-3"> <span class="input-group-text" id="basic-addon1">Nom<span class="text-danger">*</span>:</span><input  name="nom" class="form-control" id="nom_saisi" type="text"required title="Renseigner votre nom" ></div>
+                        <div id="verif_prenom"></div>
+                        <div class="input-group mb-3"> <span class="input-group-text" id="basic-addon2">Prénom<span class="text-danger">*</span> :</span><input  name="prenom" class="form-control" id="prenom_saisi" type="text"  required title="Renseigner votre prénom"></div>
+                        
+                        <br> <label for="Sexe"><span class="text-dark">Sexe<span class="text-danger">*</span>:</span> </label>
+                        <input type="radio" name="Sexe" value="Féminin" required class="Radio"> <span class="white">Féminin</span>
+                        <input type="radio" name="Sexe" value="Masculin" required class="Radio"><span class="white">Masculin </span> <br><br>
+                        <div id="verif_sex" class="text-danger"></div>
+                        <div class="input-group mb-3"> <span class="input-group-text" id="basic-addon3">Date de naissance<span class="text-danger">*</span> :</span><input class="form-control" id="code_saisi" type="date" required title="Renseigner votre date de naissance"></div>
+                        <div id="verif_date" class="text-danger"></div>
+                        <br>
+                        <div id="verif_code"></div>
+                        <div class="input-group mb-3"> <span class="input-group-text" id="basic-addon4">Code postal<span class="text-danger">*</span> :</span><input class="form-control" type="text" name="code postal" required title="Renseigner votre code postal"></div>
+                        
+                        <div class="input-group mb-3"> <span class="input-group-text" id="basic-addon5">Adresse :</span><input class="form-control" type="text" name="adresse" ></div>
+                        <div class="input-group mb-3"> <span class="input-group-text" id="basic-addon6">Ville :</span><input class="form-control" type="text" name="ville" ></div>
+                        <div id="verif_mail"></div>
+                        <div class="input-group mb-3"> <span class="input-group-text" id="basic-addon7">@<span class="text-danger">*</span></span><input class="form-control" id="mail" type="text"  required title="Renseigner votre Email"></div>
+                        
+                    </fieldset>
+                    
+                    <fieldset>
+                        <legend class="text-dark">Votre demande<span class="text-danger">*</span> : </legend>
+                        <label for="Sujet" class="text-dark">Sujet<span class="text-danger">*</span> :</label>
+                        <select name="Sujet" size="1" required title="Selectionner un sujet" id="selectionner" class="form-control">
+                            <option value="Mes commandes"> Mes commandes</option>
+                            <option value="Question">Question sur produit</option>
+                            <option value="Réclamation">Réclamation</option>
+                            <option value="Autres">Autres</option>
+                        </select>
+                        
+                        <label for="Questions" class="text-dark">Questions<span class="text-danger">*</span>:</label><br>
+                        <div id="verif_question"></div>            
+                        <textarea name="Questions" cols="50" rows="5" required title="Remplissez le champs des questions"id="Question" class="form-control" ></textarea>
+                        
+                    </fieldset>
+                    <input type="checkbox" name="Acceptation" value="Accpete" required title="Veuillez accepter le traitement du formulaire" id="checkbox"><label for="Accepte Form" id="Textaccept" class="text-dark"> J'accepte le traitement informatique de ce formulaire<span class="text-danger">*</span></label><br>
+            
+                       <button type="submit" class="btn btn-success form-control" onclick="verif();" >Envoyer</button><br><br>
+                       <button type="reset" class="btn btn-danger form-control">Annuler</button> 
+                       
+                
+                </form>
+
+
+            </div>
+
+        </div>
+    
+ 
+
+<script src="assets/script.js"></script>
+</body>
+</html>
